@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+// Variables
+@import "variables";
+
+// Bootstrap
+
+.btn-round{
+  border-radius: 17px;
+}
+
+.logo{
+  img{
+    height:90px;
+    width:auto;
+  }
+}
+
+.verify-form{
+  .title{
+    font-size:30px;
+    color: $font-color;
+    font-weight: bold;
+    text-align: center;
+  }
+}

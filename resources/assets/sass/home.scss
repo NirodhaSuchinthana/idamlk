@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+// Variables
+@import "variables";
+
+// Bootstrap
+
+body > * {
+  background-size: cover;
+}
+
+.btn-round{
+	border-radius: 17px;
+}
+
+.site-text-bg{
+	color: $font-color;
+}
+
+.slogan-text{
+	text-align:left;
+  font-size: 20;
+}
+
+.site-links{
+  a{
+  	text-decoration: none;
+    color: $font-color;
+    font-size: 20px;
+  }
+  
+  a:hover{
+  	text-decoration: underline;
+  }
+}
+
+.quick-links{
+  align-self: center;
+  align-items:center;
+  a{
+    font-size:20px;
+    color: $font-color;
+    
+    img{ width:28px; height:auto; margin:5px; align-content:center;}
+  }
+  
+  a:hover{
+  	text-decoration: underline;
+  }
+}
+
+.link-btn{
+	width:250px;
+  height:auto;
+  padding:15px;
+  font-weight: normal;
+  border-radius:12px;
+  font-size: 24px;
+}
+
+.right-shaded{
+  @media screen and (max-width: $break-small) {
+    border-top: 2px solid #DBDBDB;
+  }
+  @media screen and (min-width: $break-large) {
+    border-right: 1px solid #DBDBDB;
+  }
+}
+
+.btn-desc{
+	font-size:22px;
+  padding:5px;
+}
+
+.text-site{
+	color: $font-color;
+}
+
+.text-top-links{
+  a{
+    font-size: 16px;
+  }
+
+  a:hover {
+    text-decoration: none;
+  }
+}

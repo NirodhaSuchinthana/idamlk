@@ -1,0 +1,16 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);.btn-round {
+  border-radius: 17px;
+}
+
+.logo img {
+  height: 90px;
+  width: auto;
+}
+
+.register-form .title {
+  font-size: 30px;
+  color: #3F3F3F;
+  font-weight: bold;
+  text-align: center;
+}
+

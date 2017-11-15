@@ -1,0 +1,90 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);body > * {
+  background-size: cover;
+}
+
+.btn-round {
+  border-radius: 17px;
+}
+
+.site-text-bg {
+  color: #3F3F3F;
+}
+
+.slogan-text {
+  text-align: left;
+  font-size: 20;
+}
+
+.site-links a {
+  text-decoration: none;
+  color: #3F3F3F;
+  font-size: 20px;
+}
+
+.site-links a:hover {
+  text-decoration: underline;
+}
+
+.quick-links {
+  -ms-flex-item-align: center;
+      align-self: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.quick-links a {
+  font-size: 20px;
+  color: #3F3F3F;
+}
+
+.quick-links a img {
+  width: 28px;
+  height: auto;
+  margin: 5px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.quick-links a:hover {
+  text-decoration: underline;
+}
+
+.link-btn {
+  width: 250px;
+  height: auto;
+  padding: 15px;
+  font-weight: normal;
+  border-radius: 12px;
+  font-size: 24px;
+}
+
+@media screen and (max-width: 320px) {
+  .right-shaded {
+    border-top: 2px solid #DBDBDB;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .right-shaded {
+    border-right: 1px solid #DBDBDB;
+  }
+}
+
+.btn-desc {
+  font-size: 22px;
+  padding: 5px;
+}
+
+.text-site {
+  color: #3F3F3F;
+}
+
+.text-top-links a {
+  font-size: 16px;
+}
+
+.text-top-links a:hover {
+  text-decoration: none;
+}
+
